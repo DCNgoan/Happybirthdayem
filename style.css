@@ -23,8 +23,8 @@ body{
     align-items: center;
 }
 .container .boxcontainer{
-    width: 700px;
-    height: 450px;
+    width: 390px;
+    height: 520px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -123,7 +123,7 @@ body{
 .container .cake{
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 130%;
     display: flex;
     justify-content: center;
     outline: none;
@@ -146,11 +146,11 @@ body{
     }
 }
 .container .cake img{
-    width: 300px;
-    height: 200px;
+    width:250px;
+    height: 150px;
     position: absolute;
     top: 50%;
-    margin-top: 50px;
+    margin-top: 40px;
     z-index: 10000;
     transition: 1s;
     cursor: pointer;
@@ -184,7 +184,7 @@ body{
     position: absolute;
 }
 .box-balloon .balloon-item1 img{
-    width: 80px;
+    width: 70px;
 }
 .box-balloon .balloon-item1:nth-child(1){
     animation: item1 8s forwards,
@@ -197,7 +197,7 @@ body{
     0%{
         opacity: 1;
         visibility: visible;
-        right: 86%;
+        right: 78%;
         transform: translateX(0%);
         transform: rotate(0deg);
         bottom: 58%;
@@ -206,7 +206,7 @@ body{
     25%{
         opacity: 1;
         visibility: visible;
-        right: 86%;
+        right: 78%;
         transform: translateX(0%);
         transform: rotate(0deg);
         bottom: 58%;
@@ -215,7 +215,7 @@ body{
     50%{
         opacity: 1;
         visibility: visible;
-        right: 86%;
+        right: 78%;
         transform: translateX(0%);
         transform: rotate(0deg);
         bottom: 58%;
@@ -224,7 +224,7 @@ body{
     75%{
         opacity: 1;
         visibility: visible;
-        right: 86%;
+        right: 78%;
         transform: translateX(0%);
         transform: rotate(0deg);
         bottom: 58%;
@@ -233,7 +233,7 @@ body{
     100%{
         opacity: 1;
         visibility: visible;
-        right: 86%;
+        right: 78%;
         transform: translateX(0%);
         transform: rotate(0deg);
         bottom: 58%;
@@ -296,7 +296,7 @@ body{
     0%{
         opacity: 1;
         visibility: visible;
-        left: 85%;
+        left: 78%;
         transform: translateX(0%);
         transform: rotate(0deg);
         bottom: 60%;
@@ -305,7 +305,7 @@ body{
     25%{
         opacity: 1;
         visibility: visible;
-        left: 85%;
+        left: 78%;
         transform: translateX(0%);
         transform: rotate(0deg);
         bottom: 60%;
@@ -314,7 +314,7 @@ body{
     50%{
         opacity: 1;
         visibility: visible;
-        left: 85%;
+        left: 78%;
         transform: translateX(0%);
         transform: rotate(0deg);
         bottom: 60%;
@@ -323,7 +323,7 @@ body{
     75%{
         opacity: 1;
         visibility: visible;
-        left: 85%;
+        left: 78%;
         transform: translateX(0%);
         transform: rotate(0deg);
         bottom: 60%;
@@ -332,7 +332,7 @@ body{
     100%{
         opacity: 1;
         visibility: visible;
-        left: 85%;
+        left: 78%;
         transform: translateX(0%);
         transform: rotate(0deg);
         bottom: 60%;
@@ -386,12 +386,12 @@ body{
 }
 .container .box-cloud{
     position: absolute;
-    width: 100%;
-    height: auto;
+    width: 180%;
+    height: 80%;
 }
 .container .cloud{
     position: absolute;
-    z-index: 10000;
+    z-index: 2000;
     opacity: 0;
     animation: cloud 10s infinite linear;
     animation-delay: 4s;
@@ -455,7 +455,7 @@ body{
     }
 }
 .container .cloud > img{
-    width: 100px;
+    width: 120px;
     filter: drop-shadow(1px 4px 0px rgb(188, 188, 188));
 }
 .container .box-firework{
@@ -928,14 +928,14 @@ span{
 .container .boxcute{
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 120%;
 }
 .container .cute1{
     position: absolute;
-    top: 210px;
+    top: 290px;
     left: -100px;
     animation: cute 3s infinite ease-in-out;
-    animation-delay: 13s;
+    animation-delay: 10s;
 }
 @keyframes cute{
     0%{
@@ -955,11 +955,11 @@ span{
     text-align: center;
     padding: 10px;
     width: 80px;
-    font-size: 10px;
+    font-size: 8px;
     background: rgb(198, 17, 189);
     border-radius: 15px;
     margin-top: -30px;
-    margin-left: -40px;
+    margin-left: -60px;
     animation: cutemail 3s linear infinite;
     animation-delay: 13s;
     z-index: -1;
@@ -982,7 +982,7 @@ span{
 }
 .container .cute2{
     position: absolute;
-    top: 210px;
+    top: 280px;
     right: -100px;
     transform: scaleX(-1);
     animation: cute2 3s infinite ease-in-out;
@@ -1007,7 +1007,7 @@ span{
     padding: 10px;
     width: 80px;
     font-size: 10px;
-    background: white;
+    background: rgb(9, 214, 77);
     border-radius: 15px;
     margin-top: -30px;
     margin-left: -100px;
@@ -1166,7 +1166,7 @@ span{
 }
 .boxMail .boxMail-container .card2:hover h3{
     animation: texth3 3s forwards;
-    animation-delay: 2s;
+  
     transition: 1s;
 }
 @keyframes texth3{
@@ -1190,12 +1190,12 @@ span{
 }
 .boxMail .boxMail-container .card2:hover h2{
     animation: texth2 2s forwards;
-    animation-delay: 4s;
+   
     transition: 1s;
 }
 @keyframes texth2{
     0%{
-        opacity: 0;
+        opacity: 1;
     }
     100%{
         opacity: 1;
